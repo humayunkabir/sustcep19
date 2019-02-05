@@ -1,0 +1,21 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Humayun kabir",
+      "reg": 2011332041,
+      "current_job": {
+        "job_title": "Web developer",
+        "institution": "Technext Limited",
+        "job_location": "Mirpur DOHS, Dhaka",
+        "salary": null,
+        "want_to_switch": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Chinmoy Saha",
+      "reg": 2011332049
+    }
+  ]
+}
