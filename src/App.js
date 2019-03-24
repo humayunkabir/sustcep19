@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import Members from './components/members/Members';
+import Alumnis from './components/alumnis/Alumnis';
+import AlumniDetails from './components/alumnis/AlumniDetails';
+import Navbar from './components/Navbar';
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <Members/>
-      </div>
+      <main>
+        <Navbar />
+        <div className="container">
+          <Switch>
+            <Route exact path="/" render={() => 'Home'} />
+            <Route exact path="/alumnis" component={Alumnis} />
+            <Route exact path="/alumnis/:id" component={AlumniDetails} />
+          </Switch>
+        </div>
+      </main>
     );
   }
 }

@@ -1,21 +1,88 @@
 {
-  "members": [
+  "alumnis": [
     {
-      "id": 1,
-      "name": "Humayun kabir",
-      "reg": 2011332041,
-      "current_job": {
-        "job_title": "Web developer",
-        "institution": "Technext Limited",
-        "job_location": "Mirpur DOHS, Dhaka",
-        "salary": null,
-        "want_to_switch": true
+      "id": "cjq8hxvbd2r6j0873kmjueoj9",
+      "name": "Humayun Kabir",
+      "headline": "Senior Web Developer",
+      "email": "humayunkabir.cep@gmail.com",
+      "cell": 1709152786,
+      "description": null,
+      "bio": "I'm me",
+      "avatar": {
+        "id": "cjq8i60o92rqa0873f4fhi4lj",
+        "fileName": "pp.jpg",
+        "url": "https://media.graphcms.com//2zreGxdqRaGnW3HjxV11"
       }
     },
     {
-      "id": 2,
+      "id": "cjq8iwuqo2ta30873zc0qwgyn",
       "name": "Chinmoy Saha",
-      "reg": 2011332049
+      "headline": "Thesis Assistant",
+      "email": "chinmoy.sust@gmail.com",
+      "cell": 1916338877,
+      "description": null,
+      "bio": null,
+      "avatar": {
+        "id": "cjq8izay52tg60873njm1hm7p",
+        "fileName": "701973_1006988256032938_509559864463626539_o.jpg",
+        "url": "https://media.graphcms.com//As8sRwIOTxa9k1oa5Qf4"
+      }
+    },
+    {
+      "id": "cjq8lkaor300f0873xrr9aoqq",
+      "name": "Mahmudul Hasan Masum",
+      "headline": "Shift Incharge Operations",
+      "email": "masum.sust2011@gmail.com",
+      "cell": null,
+      "description": null,
+      "bio": "I am just a simple guy, never hurt you I'll try... :)",
+      "avatar": {
+        "id": "cjq8lkb9w300k0873m7wr2plv",
+        "fileName": "11024204_10206099661153838_7041042494834466172_o.jpg",
+        "url": "https://media.graphcms.com//I4FKDeuVRlSCIzSR7Ifw"
+      }
+    },
+    {
+      "id": "cjq9mwuti6txr08737bwip1sn",
+      "name": "Md. Anisur Rahman",
+      "headline": "Lecturer",
+      "email": "anis.cep@gmail.com",
+      "cell": 1724024050,
+      "description": null,
+      "bio": null,
+      "avatar": {
+        "id": "cjq9mwpiz6twz0873y2iyw7ji",
+        "fileName": "17880437_1297959196967460_6449548753143164779_o.jpg",
+        "url": "https://media.graphcms.com//sXDB3OsHT1WlFvoPJKO8"
+      }
+    },
+    {
+      "id": "cjq9t7bu678s40873nbvwmf8s",
+      "name": " Mehedi Hasan",
+      "headline": "Process Engineer",
+      "email": "mehedi.cep@gmail.com",
+      "cell": null,
+      "description": null,
+      "bio": null,
+      "avatar": {
+        "id": "cjq9t76vf78rm0873zqei0un3",
+        "fileName": "16707405_970246189774115_3180864749060177810_o.jpg",
+        "url": "https://media.graphcms.com//FpA6fYioRneOFUH8rlZN"
+      }
+    },
+    {
+      "id": "cjq9taiti790v08735vdzpeem",
+      "name": "Towfiq Dip",
+      "headline": "Process Engineer",
+      "email": "towfiq.cep@gmail.com",
+      "cell": null,
+      "description": null,
+      "bio": null,
+      "avatar": {
+        "id": "cjq9taet679070873o1xtunii",
+        "fileName": "11928713_805530639565953_5167923608824883315_o.jpg",
+        "url": "https://media.graphcms.com//aIQMyO0RjWJ1SzOa1SgR"
+      }
     }
   ]
 }
