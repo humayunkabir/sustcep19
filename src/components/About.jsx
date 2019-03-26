@@ -196,7 +196,9 @@ const About = () => {
                               {faculty.name}
                             </a>
                           </h5>
-                          <p className="mb-0">{faculty.designation}</p>
+                          <p className="mb-0">
+                            {faculty.designation.replace('_', ' ')}
+                          </p>
                         </div>
                       </div>
                     </li>
