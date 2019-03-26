@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Loader = () => {
+const Loader = props => {
   return (
     <div
       className="d-flex justify-content-center align-items-center w-100"
-      style={{ minHeight: '100vh' }}
+      style={Object.assign({ minHeight: '100vh' }, props.style)}
     >
       <div
         className="spinner-border"

@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Alumni = ({ alumni }) => {
   return (
-    <div className="card">
+    <div className="card mb-4">
       <div className="card-body">
         <div className="media align-items-center">
-          <a href={`alumnis/${alumni.id}`} className="text-dark">
+          <Link to={`alumnis/${alumni.id}`}>
             <div className="avatar avatar-5xl">
               <img
                 className="rounded-circle img-thumbnail border shadow-sm"
@@ -14,20 +16,28 @@ const Alumni = ({ alumni }) => {
                 alt={alumni.name}
               />
             </div>
-          </a>
+          </Link>
 
           <div className="media-body ml-3">
             <Link to={`alumnis/${alumni.id}`} className="text-dark">
               <h5 className="mb-0">{alumni.name}</h5>
             </Link>
             <p>{alumni.headline}</p>
-            <a href={`mailto:${alumni.email}`}>{alumni.email}</a>
-            <br />
+            {alumni.email ? (
+              <a
+                href={`mailto:${alumni.email}`}
+                className="btn btn-falcon-default btn-sm rounded-pill"
+              >
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+            ) : null}
             {alumni.cell ? (
-              <div>
-                <strong>Cell: </strong>
-                <a href={`tel:0${alumni.cell}`}>0{alumni.cell}</a>
-              </div>
+              <a
+                href={`tel:0${alumni.cell}`}
+                className="btn btn-falcon-default btn-sm rounded-pill ml-2"
+              >
+                <FontAwesomeIcon icon={faPhone} />
+              </a>
             ) : null}
           </div>
         </div>

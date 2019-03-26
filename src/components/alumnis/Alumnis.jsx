@@ -14,7 +14,7 @@ class Members extends Component {
             if (loading) return <Loader />;
             if (error) return <Alert alert={error} />;
             return data.alumnis.map(alumni => (
-              <div className="col-lg-6 mb-4" key={alumni.id}>
+              <div className="col-lg-6" key={alumni.id}>
                 <Alumni alumni={alumni} />
               </div>
             ));

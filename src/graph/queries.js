@@ -32,3 +32,14 @@ export const getAlumniQuery = gql`
     }
   }
 `;
+
+export const getFacultiesQuery = gql`
+  {
+    faculties {
+      facultyId
+      name
+      designation
+      thumbnailUrl
+    }
+  }
+`;
