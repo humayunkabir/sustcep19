@@ -14,7 +14,7 @@ class Home extends Component {
         </div>
         <div className="col-lg-7">
           <div className="rounded-soft overflow-hidden">
-            <Plyr type="youtube" videoId="kDC_4tT_1ts" autoplay={true} />
+            <Plyr type="youtube" videoId="kDC_4tT_1ts" autoplay />
           </div>
         </div>
       </div>
